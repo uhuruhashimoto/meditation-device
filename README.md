@@ -19,3 +19,4 @@ Full Clean:
 - make sure you've saved code changes
 - if necessary uninstall libraries and the SAMD Board software through the Arduino SDK
 - On Linux: use `yay -R` to remove Arduino
+    - make sure to clear Arduino folder from Home
