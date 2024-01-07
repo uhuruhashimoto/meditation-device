@@ -16,16 +16,16 @@ This repository contains starter code for the Arduino prototype of the Zenimal g
 4. Run starter code through SDK
 
 ### Linux Setup Resources:
-- Basic tutorial [here](https://wiki-content.arduino.cc/en/Guide/ArduinoMKRZero)
-- Linux port fix [here](https://support.arduino.cc/hc/en-us/articles/360016495679-Fix-port-access-on-Linux)
-- Longer Linux permissions troubleshooting [here](https://majenko.co.uk/blog/diagnosing-arduino-problems-linux)
+- [Basic tutorial](https://wiki-content.arduino.cc/en/Guide/ArduinoMKRZero)
+- [Linux port fix](https://support.arduino.cc/hc/en-us/articles/360016495679-Fix-port-access-on-Linux)
+- [Longer Linux permissions troubleshooting](https://majenko.co.uk/blog/diagnosing-arduino-problems-linux)
 
 ### SD Formatting Resources
-- Adafruit tutorial for Windows/Mac [here](https://learn.adafruit.com/adafruit-micro-sd-breakout-board-card-tutorial/formatting-notes)
-- Linux `mkfs` tutorial [here](https://www.ibeesoft.com/computer-tips/convert-exfat-to-fat32.html)
+- [Adafruit tutorial for Windows/Mac](https://learn.adafruit.com/adafruit-micro-sd-breakout-board-card-tutorial/formatting-notes)
+- [Linux `mkfs` tutorial](https://www.ibeesoft.com/computer-tips/convert-exfat-to-fat32.html)
     - `sudo umount /dev/sdb1`
     - `sudo mkfs.vfat /dev/sdb1`
-- Note: dev path may not be `sdb`. dev path tutorial [here](https://unix.stackexchange.com/questions/144029/command-to-determine-ports-of-a-device-like-dev-ttyusb0)
+- Note: dev path may not be `sdb`. Use this [dev path tutorial](https://unix.stackexchange.com/questions/144029/command-to-determine-ports-of-a-device-like-dev-ttyusb0)
 
 ## Full Clean:
 - make sure you've saved code changes
