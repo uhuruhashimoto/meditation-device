@@ -23,7 +23,9 @@ This repository contains starter code for the Arduino prototype of the Zenimal g
 ### SD Formatting Resources
 - Adafruit tutorial for Windows/Mac [here](https://learn.adafruit.com/adafruit-micro-sd-breakout-board-card-tutorial/formatting-notes)
 - Linux `mkfs` tutorial [here](https://www.ibeesoft.com/computer-tips/convert-exfat-to-fat32.html)
-- dev path tutorial [here](https://unix.stackexchange.com/questions/144029/command-to-determine-ports-of-a-device-like-dev-ttyusb0)
+    - `sudo umount /dev/sdb1`
+    - `sudo mkfs.vfat /dev/sdb1`
+- Note: dev path may not be `sdb`. dev path tutorial [here](https://unix.stackexchange.com/questions/144029/command-to-determine-ports-of-a-device-like-dev-ttyusb0)
 
 ## Full Clean:
 - make sure you've saved code changes
