@@ -2,12 +2,12 @@
 
 This repository contains starter code for the Arduino prototype of the Zenimal group meditation device.
 
-# Hardware
+## Hardware
 - MKR Zero Board
 - USBC cable that can carry data
-- microSD card
+- microSD card, FAT16 or FAT32 formatted
 
-# Arduino Setup
+## Arduino Setup
 1. Install Arduino SDK (IDE, terminal, and reference documentation)
 	1. On Linux: use `yay` to install packages `1-3` from the `aur`
     2. On Mac/Windows: install manually
@@ -15,12 +15,17 @@ This repository contains starter code for the Arduino prototype of the Zenimal g
 3. Install Arduino SAMD Boards (32-bits ARM Cortex M0+) (Tools -> Boards -> Board Manager -> Search)
 4. Run starter code through SDK
 
-## Linux Resources:
+### Linux Setup Resources:
 - Basic tutorial [here](https://wiki-content.arduino.cc/en/Guide/ArduinoMKRZero)
 - Linux port fix [here](https://support.arduino.cc/hc/en-us/articles/360016495679-Fix-port-access-on-Linux)
 - Longer Linux permissions troubleshooting [here](https://majenko.co.uk/blog/diagnosing-arduino-problems-linux)
 
-# Full Clean:
+### SD Formatting Resources
+- Adafruit tutorial for Windows/Mac [here](https://learn.adafruit.com/adafruit-micro-sd-breakout-board-card-tutorial/formatting-notes)
+- Linux `mkfs` tutorial [here](https://www.ibeesoft.com/computer-tips/convert-exfat-to-fat32.html)
+- dev path tutorial [here](https://unix.stackexchange.com/questions/144029/command-to-determine-ports-of-a-device-like-dev-ttyusb0)
+
+## Full Clean:
 - make sure you've saved code changes
 - if necessary uninstall libraries and the SAMD Board software through the Arduino SDK
 - On Linux: use `yay -R` to remove Arduino
