@@ -13,6 +13,8 @@ void setup() {
   while (!Serial) {
     ;
   }
+  Serial.print("Setup Demo\n");
+  Serial.print("=========================\n");
   Serial.print("Initializing SD card...");
   if (!SD.begin(chipSelect)) {
     Serial.println("Card failed, or not present");
